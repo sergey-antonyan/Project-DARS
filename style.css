@@ -1,0 +1,170 @@
+*{
+   margin:0;
+   padding:0;
+box-sizing: border-box;
+}
+
+header{
+   display: flex;
+   justify-content:space-between;
+   background-color:#F6F6F6;
+   font-size: 22px;
+   color: #FFB17A;
+   line-height: 100px;
+   position: fixed;
+   width:100% ;
+}
+
+header div ul{
+   display:flex;
+}
+
+header div ul li{
+   display:flex;
+   margin-right: 30px;
+}
+
+nav {
+   width: 20%;
+   height: 200vh;
+   background-image: url(./foto/backgr2.webp);
+}
+
+.inpnum{
+ width: 100px;
+}
+
+img{
+   width: 100px;
+   height: 100px;
+}
+
+#inpsea{
+ height: 30px;
+ margin-top: 35px;
+border-radius:  15px ;
+width: 200px;
+}
+
+nav{
+   font-size: 28px;
+   margin-top: 100px;
+}
+
+#productsul li{
+   cursor: pointer;
+}
+
+#navfilt{
+   font: 40px serif;
+   text-align: center;
+   letter-spacing: 5px;
+}
+
+nav ul li {
+   padding-top: 30px;
+}
+
+#productsul{
+   margin-left: 60px;
+}
+
+#products:hover{
+   color: #da6e21;
+}
+
+#productsul li:hover{
+   color: rebeccapurple;
+}
+
+.inpnum{
+   border-radius:  8px ;
+}
+
+#main{
+   width: 75%;
+   height: auto;
+   background-image: url(./foto/backgr2.webp);
+   margin-top: 100px;
+}
+
+#navmain{
+   display: flex;
+}
+
+.container{
+   width: 250px;
+   height: 340px;
+   display: inline-block;
+   background-color: 	#EDEADE;
+   margin: 40px;
+   margin-left: 80px;
+}
+
+.container:hover{
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.imageCss{
+ width: 250px;
+ height: 220px;
+ background-color: red;
+}
+
+.priceCss{  display: inline-block;
+   
+    width: 175px;
+    height:80px;
+    background-color:#FFEFD5;
+    font-size: 16px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.buttonCss{  display: inline-block;
+   width: 175px;
+   height: 80px;
+   border: none;
+   background-image: url("./foto/BUY222.png");
+   background-size: 100% 100%;
+}
+
+.buttonsCSS:hover {
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.nameCss{
+   background-color: #F0FFF0;
+   font-size: 19px;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+}
+
+.pricebutton{
+   display: flex;
+}
+
+.svg5{
+	position: absolute;
+	top: 0;
+	left: 70%;
+	width: 300px;
+	height: 250px;
+	z-index: -1;
+	animation: svgFive 6s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+@keyframes svgFive{
+	from{
+		transform: translate(0) rotate(0);
+	}
+	to{
+		transform: translateY(-100px) rotate(90deg);
+	}
+} */
+
+
+
